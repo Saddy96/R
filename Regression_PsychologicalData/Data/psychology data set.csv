@@ -1,0 +1,242 @@
+sno,Name,Sex,Age,Company,Designation,Creative Personality,Block to creativity,Innovative sponsoring capabilities,Social Environment,Work environment
+1,Sushil Joshi,M,35,Eicher Motoer,Ass. Manager,99,103,126,23,23
+2,Raju Patil,M,40,Eicher Motoer,,107,78,117,21,22
+3,Akshatha,F,23,Eicher Motoer,Associate,104,92,112,20,22
+4,Vipin Jain,M,36,Eicher Motoer,Materials Manager,98,100,97,22,18
+5,Rakesh Chandak,M,25,Eicher Motoer,Sr. Manager ,103,102,125,19,20
+6,Anil,M,30,Eicher Motoer,Market Manager,104,123,136,20,21
+7,Chanchal Majumder,M,48,Medi-caps Limited,PPC Officer,84,98,111,21,21
+8,Mran Khan Pathon,M,28,Medi-caps Limited,Engg.,73,115,129,20,21
+9,Gopal Sasdive,M,26,Medi-caps Limited,Executive,55,99,109,16,19
+10,Bhagarm Singh Sisoliya,M,33,Medi-caps Limited,Welder,62,89,124,20,20
+11,Ajay Godbole,M,44,Medi-caps Limited,EDP ,80,96,117,19,19
+12,Anok,M,34,Medi-caps Limited,PROD,71,103,112,21,19
+13,Satyabrat,M,22,Medi-caps Limited,PROD,83,99,133,22,23
+14,Subhash,M,40,Medi-caps Limited,PROD,62,88,129,19,18
+15,Saphy ShajiF,F,44,Medi-caps Limited,Sr executive,104,79,123,18,20
+16,Arun Kadam,M,34,Medi-caps Limited,PROD,63,96,129,22,24
+17,Dheeraj Joshi,M,34,Medi-caps Limited,Asst Manager,92,106,140,23,24
+18,Ravi Swamy,M,43,Medi-caps Limited,PROD,99,88,128,22,23
+19,Ravindra ,M,22,Medi-caps Limited,PROD,93,95,140,22,24
+20,Brijesh ,M,35,Medi-caps Limited,Asst Manager,95,97,146,22,23
+21,Rasikhan,M,30,Medi-caps Limited,PROD,71,104,126,19,20
+22,Ashish Vyas,M,33,Medi-caps Limited,Sales Executive,91,105,139,23,23
+23,Anurag Gupta,M,35,Medi-caps Limited,Ass Eng.,99,98,140,21,24
+24,Sujeet Kumar Yadav,M,24,Medi-caps Limited,Jr. Executive Mktg,98,92,135,21,22
+25,R.P. Mishra,M,37,Medi-caps Limited,Sup.,100,99,131,23,24
+26,Arun Tripathi,M,31,Medi-caps Limited,Sr. Executive HR,85,101,137,22,23
+27,Alok Mishra ,M,38,Ruchi Soya,Officer,98,100,104,22,19
+28,Ashok Puranik,M,47,Ruchi Soya,Officer,106,90,158,25,25
+29,Prabhakar ,M,40,Ruchi Soya,Chemist,102,101,134,23,24
+30,K. S. Rajput,M,50,Ruchi Soya,Sr. GM ,106,101,135,21,24
+31,Asgar Ali Saifee,M,50,Ruchi Soya,A/c- TVC,79,114,130,21,21
+32,Rakesh Gokhlw,M,37,Ruchi Soya,Ex. Nr,71,96,113,20,18
+33,Anushka,F,26,Ruchi Soya,HR,82,109,103,15,14
+34,Kamlesh ,M,40,Ruchi Soya,Officer,99,136,116,19,19
+35,Pradeep ,M,28,Ruchi Soya,Officer,70,96,125,22,23
+36,Vipin Singhai,M,40,Ruchi Soya,Sales Manager,70,104,121,21,20
+37,Alok Kumar Vaishnav,M,41,Ruchi Soya,Store Sales Manager,81,106,124,18,18
+38,Hema Nikam,F,32,Ruchi Soya,Chemist Lab,72,113,127,20,19
+39,Manoj Dorwal,M,51,Ruchi Soya,DGM ,97,103,136,22,22
+40,Pradep Mandliya,M,45,Ruchi Soya,Sr. Manager ,103,101,123,19,23
+41,Vipin Kant ,M,48,Ruchi Soya,D. Manager,95,111,121,21,23
+42,S C Gupta,M,40,Ruchi Soya,Sr. Manager ,98,97,147,22,23
+43,S. K. Jain,M,35,Ruchi Soya,Manger IT,91,102,128,20,22
+44,Mahendra ,M,35,Ruchi Soya,Jr. Manager,88,99,137,19,20
+45,Dr. Jayant Sohani,M,50,Ruchi Soya,GM ,104,98,145,24,25
+46,Jitende Vaidya,M,48,Ruchi Soya,Manger HR,104,93,120,20,23
+47,Pradeep Sharma,M,40,Ruchi Soya,Adm. Sr. EM,88,105,120,21,23
+48,Mrs. Poonam ,F,40,Ruchi Soya,Manger Mkt. & Sales,79,100,120,19,22
+49,Dr. Suman Kumar Singh,M,50,Ruchi Soya,Head Comp HR,90,101,137,22,23
+50,Atul ,M,42,Ruchi Soya,Officer,103,106,151,24,25
+51,OM Shankar Rajput,M,40,Ruchi Soya,Ref. Officer,103,106,151,24,24
+52,Nagin Gangrade,M,44,Ruchi Soya,Sep. ,71,102,121,14,18
+53,P.B. Sugndhi,M,54,Ruchi Soya,GM ,104,102,152,25,25
+54,Promed Koolwal,M,50,Ruchi Soya,CTO Support,88,96,134,23,21
+55,Ashish Kanungo,M,38,Ruchi Soya,Manager ,87,105,142,21,20
+56,B.K. Neema M,,50,Ruchi Soya,Manager ,106,99,116,23,22
+57,Mahendra Gupta,M,40,Force Motom,Vice President ,97,97,148,21,25
+58,Ashok Gutpa,M,30,Heacoep Interuationaory Ltd.,Dir.,96,95,141,22,25
+59,Sunil ,M,40,Spenten ,Manager ,81,98,130,18,23
+60,K.N Mungi,M,50,ZVG Pharma,Manager A/c,92,108,142,22,25
+61,Ashok,M,40,Hindustan Motors,D.M,103,97,134,23,24
+62,Ashok Gutpa,M,40,Pithampur Poly Producer ,G.M Works,99,88,128,19,24
+63,Narendra Swamy,M,45,Indore Composite Ltd.,Manager,107,79,118,18,21
+64,D. Trivedi,M,40,Global Wire,Ceo,92,105,139,23,24
+65,Coolo Singhvi,M,40,Risptn Syntxties Ltd,GM ,99,97,133,21,24
+66,Manoj Mishra,M,38,Flexiture Int,Manager,95,105,117,19,20
+67,Prahlad Vyas,M,40,Piramal Health Core,DM,91,100,137,23,25
+68,M M Gutpa,M,40,Pimacle Ind. Ltd,GM ,97,103,137,24,25
+69,S K Jain,M,40,Ganeka Industries Ltd,MD,104,101,142,24,25
+70,Ajay Sinhi,M,38,Mhhle Migma Ltd.,Manager,86,92,134,21,22
+71,Sumit K Sharma,M,40,L & T ,Manager,88,101,124,19,22
+72,Sunil Garg,M,40,Bridgestone,GM ,104,94,112,21,22
+73,Ghanshyam Sharma,M,40,Hahond Steel Pvt. Ltd,Manager,86,102,125,20,22
+74,Nitiesh Choudhery,M,35,Coprseal Indore Pvt. Ltd.,Director ,90,94,141,25,22
+75,Ashok Jain,M,40,Pratibha System,Manager A/C,97,91,127,20,21
+76,Manish Tiwari,M,36,Shakti Pumps,Manager ,97,90,133,19,22
+77,Pankaj Bisht,M,28,Syncomsece,Officer,97,103,137,24,25
+78,Neeraj Singh Raini,M,23,Apta Lasecator,PPL ,101,99,134,23,24
+79,Sudhir Dwivdei,M,32,AIpa Lab,DMC,105,87,155,23,25
+80,Sushi Joshi,M,34,Alpa Lab,Marketing,91,101,130,20,22
+81,P Sneha,F,25,Syncom ,Exe Asst.,98,94,153,22,25
+82,Visha Sharma,M,28,Alpa Lab,Jr. Officer,88,98,137,23,23
+83,Jitendra,M,24,Alpa Lab,Exc. Statistics,90,98,141,25,23
+84,Jinanshu Vyas,M,28,Fralibha Syntx,Prod. Manager,102,112,141,23,24
+85,Ashok Kumar Azad,M,38,Richi Soya,HR Officer,99,98,140,20,23
+86,Bhuvnesh ,M,37,Ranbaxy,Sr. Executive ,89,98,137,22,25
+87,Ashtabhuja ,M,36,Syncom,Jr. Officer,86,91,135,21,22
+88,Madhav Mand,M,44,Ranbaxy,Sr. Manager ,106,94,116,24,25
+89,Mandhundre Pathak,M,27,Ranbaxy,Sr. Exe. ,85,98,119,21,22
+90,J. S. Chouhan,M,49,Ranbaxy,DBM,90,99,137,22,23
+91,K K Sharma,M,42,Ranbaxy,Manager Store,73,114,129,21,21
+92,B B Yadav,M,34,Ranbaxy,Ass.Manager                      M,55,99,122,21,25
+93,Pnros Dand,M,35,Ranbaxy,Manager ,104,93,116,19,20
+94,Ashish Vyas,M,36,Syncom,Sales Manager,88,107,120,21,23
+95,Rajesh Kumar,M,36,Syncom,Sr. Executive,79,100,123,20,21
+96,Parmanand,M,34,Ranbaxy,Jr.Executive,86,107,144,23,24
+97,Jose,M,47,Ranbaxy,Sales Manager,106,100,136,24,23
+98,Rishipal Singh,M,30,Ranbaxy,Executive,98,100,130,22,24
+99,P.N. Panchal ,M,52,Ranbaxy,Manger Sales,91,97,136,20,23
+100,Rahul Batish ,M,31,Ranbaxy,Sr. Exe(HR) ,101,97,121,19,22
+101,Praleep Soni ,M,40,Davusovic ,GM (Prod Aitiuity),81,98,130,18,23
+102,Sachin Sharma,M,25,ALPA,MIS(Exe) ,98,92,134,19,22
+103,Sushil Bandueal,M,28,ALPA,Product Exe,91,108,139,22,25
+104,Sanjay Manchan,M,33,Pansonic,Sr.Mgr (Head window Assembling) ,95,97,146,22,23
+105,Nitin Chinchelebar ,M,45,LET ,Sr. Mgr(Purchase & Maliuial Mgxl) ,93,95,141,22,24
+106,Shrinang ,M,45,Pansonic,VP (Techvicap),92,105,140,23,24
+107,Manoj Kamat ,M,30,Prabibha Syneen ,Sn. Mgr. (Technical),99,88,128,19,24
+108,Rajendra Jat,M,40,Raymond Jkfecles & Zoocs ,Mgre (A/C,88,99,137,22,23
+109,Deepak Vyas ,M,28,Dratibha Syntex,Prod. Manager,101,79,118,18,21
+110,Rahesh Chavhan ,M,68,Pratibha Synrer,Ass. Mgr (Sales- Logistica Srap),61,100,126,22,25
+111,Aniket ,M,29,ALPA Cas,Mag (PPC Cordination & Conlsol) ,99,99,133,21,24
+112,Umesh Nantiyal ,M,30,Syncom,One . Prod,95,102,121,21,23
+113,Yashwant Singh ,M,27,Syncom,shore officer (commerecal ) ,99,104,126,24,23
+114,Rani Bhangla,F,29,HDFC,Mgmt Trance,52,100,109,17,12
+115,Pankaj Kumawat,M,30,HDFC,B.M,83,92,146,24,22
+116,Vishal Sarmanal,M,32,HDFC,Jr. Processing,81,111,127,19,20
+117,Pratik Arora,M,28,HDFC ,Backup Branch Manager,83,109,126,24,22
+118,Sandeep Jain,M,24,HDFC,BDA,75,104,115,19,23
+119,Ashish Singh Rathore,M,21,HDFC,BDO,80,94,118,22,22
+120,Sandeep Sharma,M,34,HDFC,Jr. Processing,95,119,121,22,21
+121,Mayank Rathore,M,27,HDFC,Asst. Manager,72,115,133,20,22
+122,Surya Pratap ,M,26,HDFC,D S,82,108,104,19,20
+123,Pankaj Kumawat,M,27,HDFC,Sr. Brach Manager,79,114,129,21,22
+124,Rajendra Singh,M,32,HDFC,Manager,88,96,136,19,22
+125,Abhinav Trivedi,M,30,HDFC,Manager,96,102,113,21,20
+126,Amarjeet ,M,30,HDFC,Dep. Manger,99,87,112,18,20
+127,Mohan Mandlovi,M,48,JSBM,Manager ,93,101,124,23,21
+128,Vishwash Nigam,M,33,HDFC,Dep. Manger,91,102,126,20,22
+129,Vikram Dubey,M,29,HDFC,Asst. Manager,103,99,123,19,23
+130,Subodh Puranik,M,35,HDFC,Brach Head,102,98,145,23,24
+131,Amitesh Das,M,30,HDFC,Manager,97,100,135,22,23
+132,Mayank Rathore,M,27,HDFC,Asst. Manager,70,96,116,22,18
+133,Payal Jain,F,28,HDFC,Dep .Manager,93,104,120,21,23
+134,Deepail Joshi,F,34,HDFC,Manager,79,101,120,19,22
+135,Yogender Singh ,M,29,Parmar,Self Employed,99,91,118,20,23
+136,Vinik Birthare,M,27,HDFC,Asst. Manager,88,104,120,21,23
+137,Akilesh Patidar,M,26,HDFC,DM,85,101,135,22,23
+138,Neha Karodi,F,25,HDFC,Sales Executive,71,102,123,17,19
+139,Pintu Sahgal,M,26,HDFC,Sales Executive,88,97,128,21,21
+140,Rohitesh sharma ,M,28,HDFC,Dep .Manager,85,100,140,21,20
+141,Prashant Rai,M,26,HDFC,BM ,106,100,126,23,22
+142,Anand K Shukla,M,35,HDFC,Asst. Manager,73,103,112,21,19
+143,Kapil Badrani,M,28,HDFC,DM,62,88,128,19,22
+144,Deepika Rathore,F,29,HDFC,Executive,62,91,125,21,19
+145,Hemant Vays,M,28,HDFC,Asst. Manager,82,95,117,20,19
+146,Vithika Mathur,F,26,HDFC,DM,94,99,131,23,22
+147,Ravi Nagpal,M,27,HDFC,DM,104,123,124,21,21
+148,Mohit Sharma ,M,25,HDFC,Asst. Manager,104,79,123,19,20
+149,Sauradh Shukla ,M,30,HDFC,Asst. Manager,62,93,130,23,23
+150,Pawan Choudhary,M,25,India Bulls ,RM,72,114,127,20,19
+151,Deepak Jain,M,27,India Bulls ,Compliance officer,93,104,117,17,19
+152,Jitendra,M,38,India Bulls ,Relationship Manager,91,98,130,22,20
+153,Bhushan,M,28,India Bulls ,Relationship Manager,95,102,127,24,23
+154,ShirishGour,F,40,India Bulls ,Vice President ,104,100,144,24,25
+155,Apoorv Jain,M,26,India Bulls ,SRM,86,94,128,21,22
+156,Poonam Singh Tomer,M,30,India Bulls ,RM,104,94,113,21,22
+157,Mudit Jain,M,24,India Bulls ,RM,83,102,125,20,22
+158,Sachin Maheshwari,M,30,India Bulls ,RM,90,94,133,25,22
+159,Ajay ,M,22,India Bulls ,Dealer,97,121,126,20,21
+160,Ritesh Soni,M,26,India Bulls ,RM,88,101,126,22,22
+161,Amit Kathrya,M,30,India Bulls ,Sr. Relactionship Manger,95,90,129,19,22
+162,Youwraj Yadva,M,24,India Bulls ,Exe. Dealr,54,100,110,17,12
+163,Chhaya ,F,25,India Bulls ,Backup Executive,76,115,133,20,22
+164,Prakesh Patel,M,29,India Bulls ,RM,84,106,124,19,18
+165,Abhay,M,32,India Bulls ,Sr. Relactionship Manger,70,103,122,21,20
+166,Jugnu Arya,M,30,India Bulls ,Vice President ,99,99,140,24,25
+167,Deepak Vyas ,M,34,India Bulls ,SRM,79,114,123,21,19
+168,Shalendra Sorgana,M,36,India Bulls ,Executive,89,105,114,19,20
+169,Abhishek Jain,M,29,India Bulls ,RM,97,82,118,18,21
+170,Jitendra Warathe,M,27,India Bulls ,RM,99,88,115,19,21
+171,Vimal Rathore,M,24,India Bulls ,Relationship Manager,100,98,126,21,20
+172,Vishvesh Chaturvedi,M,26,India Bulls ,RM,76,98,116,18,19
+173,Jafar Khan,M,34,Doctor Govt- Hospital,Medical Officre,62,89,128,19,19
+174,Dr. Ashish ,M,28,Doctor Govt- Hospital,MBBS,101,96,127,21,24
+175,Dr. K K Chatuvedi,M,45,Doctor Govt- Hospital,Sarjan,91,91,130,21,22
+176,Dr.Markvs Damos,M,39,Doctor Govt- Hospital,B.M.O.CH.C. Thanet ta,97,93,131,23,24
+177,Dr. Moko Jain,M,40,,,96,93,130,24,25
+178,Dr.Amit Jain,M,34,,,93,91,133,21,23
+179,Dr. Kamlesh Paraste,M,35,Doctor Govt- Hospital,Medical Officre,68,104,118,21,17
+180,Dr. Sheerendra Chaurresiy,M,29,Doctor Govt- Hospital,,94,102,121,24,19
+181,Dr. Chandva Prakash,M,28,M.Y. Hospital,RMO,92,83,128,22,23
+182,Sonce Tiwari,F,25,Srijan Advt.,Manager Media,76,95,110,21,24
+183,Sudarshan Uppadhyaya,M,32,Srijan Advt.,Accounats Head,76,95,110,21,24
+184,Rajendree Mishra ,M,30,Srijan Advt.,Sr.Ex Sales Mager,89,92,124,24,22
+185,Rohini Shukal,F,25,Srijan Advt.,Back Office Exe,70,95,110,21,19
+186,Paukaj Gajeshwar,M,35,Srijan Advt.,Mklg Exc.,79,95,112,20,22
+187,Tarun Bhati,M,29,Srijan Advt.,Mkt. Executive.,85,95,123,20,21
+188,Yogender Singh Rajput,M,30,Ficcl ,Aco,70,104,121,21,20
+189,Kuljeet Singh ,M,32,Ficcl ,Relationship office,80,100,110,22,22
+190,Sweeta Samadhiya ,F,24,Ficcl ,Back Office Exe,71,103,110,19,19
+191,Chandan Singh,M,28,Fullerton India,Relationship Manager,75,96,107,21,21
+192,Anup Patodi,M,31,Fullerton India,Manager,90,95,121,18,21
+193,Nider Singh Tomer,M,48,Ficcl ,ACO,85,102,111,18,19
+194,Santosh Hardia,M,24,Fullerton India,Chennal Manager,70,102,112,18,18
+195,Rajkumar Gour,M,23,Ficcl ,Manager,71,103,104,19,19
+196,Moin Uddin Faruqie,M,50,Ficcl ,ACO,72,100,102,9,21
+197,Kush Sethia,M,24,Indothai,Risk Manager,93,90,127,21,22
+198,Ajay Jain,M,33,Indothai,Risk Manager,103,100,125,18,20
+199,Asita Soni,F,36,Indothai,DP Manager,100,93,94,22,20
+200,Kose Ali,M,31,Indothai,Risk Manager,104,92,113,20,22
+201,Sunil Sethi,M,34,Indothai,Asst. Manager,107,81,117,21,22
+202,Mrs. Jyoti,F,31,Indothai,Risk Manager,101,112,118,19,21
+203,Deepak Sharma,M,35,Indothai,Asst. Manager,98,90,125,21,23
+204,Sumit Kanungo,M,31,Indothai,Senior Relationship Manager,99,95,129,23,22
+205,Abhey Suhane,M,34,Indothai,Marketing Manager,93,102,113,18,19
+206,Abhilash Bjpai,M,23,Indothai,Relationship Manager,101,98,120,21,20
+207,Paras Doshi,M,53,Indothai,CEO,106,93,138,23,25
+208,Dhanpal,M,45,Indothai,Manager,97,99,143,24,25
+209,Anuraj Kumar Saxena,M,33,Indothai,Company Secretary,89,94,127,22,24
+210,Vijay Singh Gour,M,26,Indothai,Internal Auditor ,87,87,120,21,21
+211,Praveen Bandi,M,46,Indothai,Exective Director,106,87,126,22,22
+212,Lokendra singh Solanki,M,30,Indothai,Ass. Manager,81,99,113,21,22
+213,Jinendra Gandhi,M,28,Indothai,Manager (I.T.),90,95,131,24,25
+214,Arun Kumar Soni,M,25,Indothai,Ass. Manager,73,114,120,21,21
+215,Sharad Mundra ,M,30,Indothai,Risk Manager,104,92,116,19,20
+216,Manoj Arya,M,27,Indothai,Manager,88,105,120,21,23
+217,Abhilasha Kharmal,F,27,Indothai,Analisyes,82,99,125,19,20
+218,Sandeep Jain,M,27,Indothai,Research Analyst,85,103,116,22,21
+219,Manglesh Ostwal,M,35,Indothai,General Manager,106,100,131,20,21
+220,Dhanashree Nagar ,F,25,SVIM Indore,Lecturer,62,86,128,19,19
+221,Neha Joshi,F,26,SVIM Indore,Asst.Prof.,103,99,123,23,21
+222,Aditi Nagar,F,23,SVIM Indore,Lecturer,70,102,112,21,19
+223,Sonal Choudhary ,F,35,SVIM Indore,Reader ,89,97,121,20,23
+224,Maitri Shah,F,28,SVIM Indore,Asst. Prof.,93,96,121,19,22
+225,Abhikriti Shukla ,F,20,SVIM Indore,Asst.Prof.,95,94,126,24,21
+226,Yogita Mandhanya,F,32,SVIM Indore,Asst. Prof.,94,99,123,20,21
+227,Sona Kanungo,F,32,SVIM Indore,Asst. Prof.,93,92,134,15,15
+228,Jitendra Jain,M,35,SVIM Indore,Asst. Prof.,87,108,136,22,25
+229,Kshama Gangiwale,F,32,SVIM Indore,Asst.Prof.,95,97,122,19,21
+230,Dr. Basita Agrawal,F,35,SVIM Indore,Asst.Prof.,93,97,136,22,24
+231,Prashant Rai,M,35,SVIM Indore,Asst. Prof.,90,103,126,23,22
+232,Sunil Chouhan M,M,30,SVIM Indore,Asst. Prof.,80,94,115,22,22
+233,Swati Sood,F,33,SVIM Indore,Asst. Prof.,99,89,128,19,20
+234,Bhawna Chandak,F,28,SVIM Indore,Asst. Prof.,91,80,118,18,18
+235,Dr. Manas Ranjan Das Mishra,M,35,SVIM Indore,Reader ,68,99,126,19,18
+236,Anouja Moharry,M,30,SVIM Indore,Asst. Prof.,95,100,131,19,20
+237,Ashvin Shah,M,40,Galiman Auto Pvt. Ltd.,Director ,96,103,142,23,25
+238,Madhuri Vays ,F,35,SVIM Indore,Asst. Prof.,96,103,124,20,18
+239,Anuradh Pathak,F,29,SVIM Indore,Asst. Prof.,88,95,123,22,23
+240,Shilpa Sharma ,F,26,SVIM Indore,Asst. Prof.,99,98,125,20,22
+241,Dhanshree Vyas ,F,30,Acropolis,Asst. Prof.,90,99,138,22,22
