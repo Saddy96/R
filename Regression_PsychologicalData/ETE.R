@@ -1,0 +1,263 @@
+# BUSINESS PROBLEM --------------------------
+# 1. A&B
+
+# Company wanted to know the individuals different pshycology perspective of individuals and 
+#   what are the other main pshycology affecting the main pshycology considered for a person
+#   The main aim can be to find the creativity of an individuals in a work place and what are the others 
+#      pshycology which is actaully affecting this creativity personlaity. All these variables are linked to
+#       indivuals creativity pshycology. We need to find an appropriate way to find the relation between them
+#       which will help the company to work on he issue for the people to improve one's productivity at work place
+
+# The find the same the company has asked a business analyst to build a model where there wanted to understand
+#   the effect of other variables on the main dependent variable which is considered. He/she will build model 
+#    using multiple linear regression where they will find the creativity of one's individual in work place and 
+#     how are the other pshycological variables which are actually affecting this main class variable.
+
+
+# The Dependent variables can be Creativity personality of an individuals. Due to the current pandemic how is
+#   one's pshycology towards works has been affected and what are the other variables due to which it is actually
+#   affecting this Dependent variables. Each and every person has been affected some how, either due to being positive 
+#     or they are afraid of covid and its effect has been seen as per one the study from Harvard as well that
+#     the productivity of one's has gone down by 20% due to this covid that means pshycology has been affected
+#     for doing a task or being creative while doing the task.
+
+
+
+# Data Import--------------------------------------
+
+#Importing the Data
+data1<-read.csv("C:/Users/Dell/MBA/Trim III/SM-R/R_Code/ETE/Data/psychology data set.csv", stringsAsFactors = TRUE)
+str(data1)
+
+
+data1 <- data1[-c(2,56,177,178,180), ]
+data1<-na.omit(data1)
+
+# Overall study of the data is performed using this function and it does the descriptive statistics calculation
+#   of the given data set, summary of all the observations of the given data sets.
+# Below are the summarization done using the function:
+# 1. MIN and MAX for each data variables
+# 2. Finding the NA's if there are any
+# 3. other descriptive statistics calculation like Mean, Median, 1st Quartile, 3rd Quartile
+summary(data1)
+# There are no misssing values as per the descriptive statistics
+
+library(DataExplorer)
+create_report(data1)
+
+dim(data1)
+# It tells us about the dimensions of the taken data set
+# There are 152 rows and 5 columns
+
+nrow(data1)
+ncol(data1)
+
+#View(data1)
+
+# BUILDING a model--------------
+# DV - Creative Personality
+# IV - Other variables like Block to creativity, Social Env, etc
+
+#Import a required library for the model building
+library(caTools)
+
+# For getting the same set for building the model of data across all the system
+set.seed(2028609)
+
+
+# Q2
+
+# a
+
+
+# Dividing the data set into training and testing 
+# Training - 90%
+# Testing - 10%
+split1<- sample.split(data1$Creative.Personality, SplitRatio = 0.9)
+
+#split = TRUE - Training(90%)
+#split = FALSE - Testing(10%)
+datatrain<-subset(data1, split1 == TRUE)
+datatest<-subset(data1, split1 == FALSE)
+
+dim(datatest)
+dim(datatrain)
+
+# Model 1
+model<-lm(Creative.Personality~
+            Block.to.creativity +
+            Innovative.sponsoring.capabilities +
+            Social.Environment +
+            Work.environment+
+            Sex +
+            Age,data = datatrain)
+
+summary(model)
+
+# Model 2-------------
+model2<-lm(data1$Creative.Personality~
+             data1$Block.to.creativity +
+             data1$Innovative.sponsoring.capabilities +
+             data1$Social.Environment +
+             data1$Work.environment+
+             data1$Sex +
+             data1$Designation +
+             data1$Company +
+             data1$Age,data = datatrain)
+
+summary(model2)
+
+plot(model)
+plot(model, scale ="r2")
+plot(model, scale ="adjr2")
+plot(model, scale = "bic")
+
+# There are some outliers in the plot which can be removed and the model can be updated for the better
+# outcome of the model or the result
+
+# Q2
+
+# b
+
+# Anova is used to analyze the differences among group means in a sample.
+# Regression Anova is the sum of the square value of the difference between the values predicted and
+#   the mean value of all the data points taken in data sets
+
+# In one-way ANOVA, the F-statistic is this ratio:
+#   F = variation between sample means / variation within the samples
+# F-statistic: 10.6  - shows the variation
+
+
+# Q2
+# c
+
+# Multiple R-squared:  0.21,	Adjusted R-squared:  0.19
+# The adjusted R-squared value is the extended version of R square
+# Rsquare tells how fit the model is so as per the build model it can be seen that 
+# there is 21.7% variaiton to the DV Creative personality can be seen from the independent variables like social env, work env, age, etc
+# Null - there is relation between variables considered
+# As compared to other IV the work env is highly affecting the dependent variable
+
+
+# Q2
+# d
+
+# 
+#  The beta coefficients of the model shows the estimated average change in the std deviation.
+# The coefficients shows the regression beta coefficients and their statistical significance. 
+# Predictor variables, that are significantly associated to the outcome variable, are marked by stars.
+# The Coefficient of the model show the value of CSR will be 66.51 even without other 
+#   independent variable playing a role which means that every one change in IV the estimated output 
+#    value will change by 47.06 a standard deviation
+
+plot(model)
+
+
+# Q2
+# e 
+
+library(car)
+vif(model)
+
+#Multicollinearity - when there r 2 or more independent variable and thehere is high corelation
+# common varaition between all the variables and beta won't be estimtated properly
+# IF the variables are having the realtion among them then that is muliti collinearity and for the same we will
+# be using VIF to check
+# There is no problem of multi collinearity as the values are less. 
+
+# apply the model on testing data set
+
+predicted<-predict(model,datatest)
+predicted
+plot(model$residuals, c(1:length(model$residuals)))
+
+# Q2
+# f
+library(lmtest)
+plot(model$residuals,model$fitted.values)
+bptest(model)
+# In graph there is no cone in the any side so there is no problem of hetero also as p values is less 
+# than 0.05 so there is no Heteroscedasticity 
+
+# Q2
+# g
+# Residuals
+model$residuals
+
+#Plot(x,y)
+#randomness in the residuals
+plot(model$residuals, c(1:length(model$residuals)))
+
+qqnorm(model$residuals)
+qqline(model$residuals)
+#as the p value of this test is less than 0.05, we reject the null hypothesis
+#which means the residuals are not normally distributed
+
+#Test for normality
+shapiro.test(model$residuals)
+
+#RMSE, AIC, BIC difference between the predicted and actual value
+library(Metrics)
+Metrics::rmse(datatest$Work.environment, predicted)
+rmse(predicted,datatest$Work.environment)
+
+# if the value is less then the model has less error and hence the model is good
+rmse(model$fitted.values, datatest$Work.environment)
+
+AIC(model)
+BIC(model)
+
+# Q2 
+# h
+#Test for autocorrelation
+dwtest(model)
+# As the cofficient is less than 2 we can say that there is a 
+#positive autocorelation
+#<2 tells positive auto-correlation
+#>2 tells negative auto-correlation
+
+
+# Q3--------
+# The built model will help in future to predict the creative personlaity of person based on the other variblaes(IV)
+# such as work env, social env, innovative sponsoring capabilities. It will help the company to find the 
+# pshycological ability or value of an individual for being a creative and how others independent varibles has affected
+# his creative personality. The predicted values will aid in the identification of innovative individuals 
+# among them. Certain activities, such as promoting a product in the marketplace, can only be 
+# accomplished if the person's mindset is innovative enough to gain an audience.
+# The kind of work everyone is doing during this current situation is affecting each and every individuals
+#  as the level of work that they have been doing has gone up. Also as per one of the study given by Wipro 
+#  they said that the productivity level of individual has gone up as they are working more hours and 
+#  putting more efforts in the work as comapred to previous 8-9 hrs of shift in office. Due to all these
+#  work and the covid issues everyone is more under pressure and it is affecting their health as well as 
+# their pshycology in the work place and also their stress level is also increasing due to the goal being 
+# set by the companies and they are overburden with the task and they are often overburdened with work 
+# and deadlines, which has a negative impact on their creativity and ability to solve issues quickly and 
+# easily. Organizations all over the world must solve these urgent challenges in order to improve employee 
+# efficiency and morale.
+
+
+#Q4------
+
+# The problem what considered is to find the creative personality level of individual which will help the business
+# at the work place and what are the effects of the other variables which are affecting this class variables.
+# The model can has to be improved as the Rsquare or ad R2 values are less than 50% which is not considered as a 
+# good fit models. To help the business we need to created a model for all the variables taking into consideration as
+# the other variables like designation of a person and company in which he or she is working can affect the mindset
+# or the pshycology of an individuals. 
+# There are some of the ethicals aspects which can't be ignored in this as we always talk about one's data but 
+# at the same time it is also about privacy and then doing a study and then pointing on them can be a serious 
+# threat for that person as it can affect him/her positively or negatively. And most importantly the companies 
+# can do the study on individuals personality or the pshycological behaviour and analyze them but they should 
+# not tell these issues to the person, in place of that they can help him/her to overcome that and give an 
+# alternaitves to them and some extra time to overcome. Also they need to understand the current issues due to 
+# covid everyone is locked at home and they can't go which is actually affecting the person's thinking as well 
+# pshycologically. Then after all these points taken into consideration what if someone gets these data of 
+# an individual about their pshycology then it might affect the person heavily. Also while asking the ques
+# companies need to understand and exact problem and the question being asked like how the ques asked can
+# affect individuals thinking. When you ask such ques realted to one's pshycology and the the workplace 
+# realted thing then there is chances that the employees might not give the exact inputs as they might 
+# think that there might be some negative consequensces of this like losing a job. Since they believe their 
+# privacy would be violated, not all workers would be able to share information about their mental health and 
+# how it has been impacted by job pressures. Some businesses are enslaved by laws, regulations, and 
+# deadlines, and they fail to contribute to the growth of business innovation.
+
